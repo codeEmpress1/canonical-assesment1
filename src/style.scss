@@ -1,0 +1,33 @@
+@import "vanilla-framework";
+@include vanilla;
+.container{
+    margin-top: 4rem;
+}
+.p-card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    
+    &, &__content {
+        display: flex;
+        flex-direction: column;
+    }
+    &__content {
+        flex-grow: 2;
+    }
+    &__title {
+        border-bottom: 1px solid rgba(185, 184, 184, 0.5);
+        padding-bottom: 1rem;
+    }
+    &--top-border {
+        border-top: 5px solid rgba(96, 4, 96, 0.683);
+        position: relative;
+    }
+    &--author {
+        font-style: italic;
+    }
+    &--footer {
+        padding: 1rem 0 .5rem 0;
+    border-top: 1px solid #979797;
+    margin-top: auto!important;
+    max-width: unset;
+    }
+}
