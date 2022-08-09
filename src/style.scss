@@ -14,7 +14,7 @@
         flex-grow: 2;
     }
     &__title {
-        border-bottom: 1px solid rgba(185, 184, 184, 0.5);
+        border-bottom: 1px solid rgb(217, 217, 217);
         padding-bottom: 1rem;
     }
     &--top-border {
@@ -26,8 +26,8 @@
     }
     &--footer {
         padding: 1rem 0 .5rem 0;
-    border-top: 1px solid #979797;
-    margin-top: auto!important;
-    max-width: unset;
+        border-top: 1px solid rrgb(217, 217, 217);
+        margin-top: auto!important;
+        max-width: unset;
     }
 }
