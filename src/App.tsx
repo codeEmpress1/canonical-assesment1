@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Card, Row } from '@canonical/react-components';
+import './app.scss';
 
 const URL =
   'https://people.canonical.com/~anthonydillon/wp-json/wp/v2/posts.json';
